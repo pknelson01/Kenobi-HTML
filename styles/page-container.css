@@ -1,0 +1,23 @@
+/* page container styles */
+
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+ 
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+ 
+.page-container > .content-wrapper > #old {
+    width: 350px;
+    margin: 25px 30px 20px 0px;
+    float: left;
+    border: 2px solid rgb(201, 201, 201);
+}
+ 
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+ 

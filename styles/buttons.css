@@ -1,0 +1,19 @@
+.btn {
+    background-color: rgba(121, 49, 16, 0.904);
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid rgba(121, 49, 16, 0.904);
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.center-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}

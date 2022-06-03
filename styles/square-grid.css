@@ -1,0 +1,41 @@
+/* square grid styles */
+
+.squares-wrapper {
+   display: flex;
+   justify-content: center;
+}
+
+.squares-wrapper > .squares {
+   width: 1050px;
+}
+.squares-wrapper > .squares > .square {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-top: -4px;
+}
+
+.square > .img-wrapper img {
+   width: 100%;
+   height: 410px;
+   object-fit: cover;
+   border: 2px solid rgb(201, 201, 201);
+}
+
+.squares-wrapper > .squares > .square > .square-text-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 42px;
+}
+
+.squares-wrapper > .squares > .square > .square-text-wrapper p {
+   letter-spacing: 0.5px;
+   line-height: 25px;
+}
+
+.squares-wrapper > .squares > .square > .square-text-wrapper h1 {
+   letter-spacing: 0.5px;
+   line-height: 35px;
+   color:rgba(143, 88, 63, 0.904);
+}
