@@ -1,5 +1,5 @@
 /* hero section styles */
-.hero-section{
+.hero-section {
    /* background-image: url(../images/backgrounds/kenobi-sand-2.jpg); */
    background-image: url(../images/backgrounds/kenobi-sand-sand.jpeg);
    /* background-image: url(../images/backgrounds/kenobi-promo.webp); */
@@ -11,7 +11,7 @@
    background-size: cover;
 }
 
-.hero-section > .top-heading {
+.hero-section>.top-heading {
    padding: 1px 20px;
    background-color: rgb(143, 143, 143);
    color: rgb(201, 201, 201);
@@ -20,93 +20,90 @@
    transition: 1s;
    opacity: 0.5;
 }
-  
- .hero-section > .top-heading:hover {
-   color:rgba(121, 49, 16, 0.904);
+
+.hero-section>.top-heading:hover {
+   color: rgba(121, 49, 16, 0.904);
 }
-  
-  
- .hero-section > .bottom-heading {
-    padding: 1px 20px;
-    background-color: rgb(201, 201, 201);
-    color:rgb(143, 143, 143);
-    width: 218px;
-    border-radius: 2px;
-    margin-top: 15px;
-    transition: 1s;
-    opacity: 0.5;
- }
-  
- .hero-section > .bottom-heading:hover {
-   color:rgba(121, 49, 16, 0.904);
+
+
+.hero-section>.bottom-heading {
+   padding: 1px 20px;
+   background-color: rgb(201, 201, 201);
+   color: rgb(143, 143, 143);
+   width: 218px;
+   border-radius: 2px;
+   margin-top: 15px;
+   transition: 1s;
+   opacity: 0.5;
 }
-  
-  
- /* features section styles */
- .features-section{
-    height: 400px;
-    /* background-image: url(../images/logos/grainy-texture-2.png); */
-    /* background-color: rgb(255, 235, 210); */
-    background-color: rgb(201, 201, 201);
-    border-top: 10px solid rgb(53, 53, 53);
-    color:rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "ubuntu Condensed", sans-serif;
-    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
- }
-  
- .features-section > .columns-wrapper {
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
- }
-  
- .features-section > .columns-wrapper > .column {
-    padding: 20px;
-    margin: 42px;
-    text-align: center;
-    border-bottom: 5px solid transparent;
-    border-radius: 10px;
-    transition: 1s;
- }
-  
- .features-section > .columns-wrapper > .column:hover {
-    border-bottom: 5px solid rgb(0, 0, 0);
- }
-  
- .features-section > .columns-wrapper > .column :nth-child(1) {
-    font-size: 3em;
-    transition: 1s;
- }
-  
- .features-section > .columns-wrapper > .column :nth-child(1):hover {
-   color:rgba(121, 49, 16, 0.904);
+
+.hero-section>.bottom-heading:hover {
+   color: rgba(121, 49, 16, 0.904);
 }
-  
-  
- .features-section > .columns-wrapper > .column :nth-child(2){
-    font-size: 1.5em;
-    font-weight: 900;
-    height: 50px;
-    transition: 1s;
- }
-  
- .features-section > .columns-wrapper > .column :nth-child(2):hover {
-    letter-spacing: 1px;
-    color:rgba(121, 49, 16, 0.904);
- }
-  
-  
- .features-section > .columns-wrapper > .column :nth-child(3) {
-    transition: 1s;
-    letter-spacing: 2px;
- }
-  
- .features-section > .columns-wrapper > .column :nth-child(3):hover {
-   color:rgba(121, 49, 16, 0.904);
+
+
+/* features section styles */
+.features-section {
+   height: 400px;
+   /* background-image: url(../images/logos/grainy-texture-2.png); */
+   /* background-color: rgb(255, 235, 210); */
+   background-color: rgb(201, 201, 201);
+   border-top: 10px solid rgb(53, 53, 53);
+   color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "ubuntu Condensed", sans-serif;
+   box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
 }
-  
- 
- 
+
+.features-section>.columns-wrapper {
+   width: 1000px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.features-section>.columns-wrapper>.column {
+   padding: 20px;
+   margin: 42px;
+   text-align: center;
+   border-bottom: 5px solid transparent;
+   border-radius: 10px;
+   transition: 1s;
+}
+
+.features-section>.columns-wrapper>.column:hover {
+   border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.features-section>.columns-wrapper>.column :nth-child(1) {
+   font-size: 3em;
+   transition: 1s;
+}
+
+.features-section>.columns-wrapper>.column :nth-child(1):hover {
+   color: rgba(121, 49, 16, 0.904);
+}
+
+
+.features-section>.columns-wrapper>.column :nth-child(2) {
+   font-size: 1.5em;
+   font-weight: 900;
+   height: 50px;
+   transition: 1s;
+}
+
+.features-section>.columns-wrapper>.column :nth-child(2):hover {
+   letter-spacing: 1px;
+   color: rgba(121, 49, 16, 0.904);
+}
+
+
+.features-section>.columns-wrapper>.column :nth-child(3) {
+   transition: 1s;
+   letter-spacing: 2px;
+}
+
+.features-section>.columns-wrapper>.column :nth-child(3):hover {
+   color: rgba(121, 49, 16, 0.904);
+}
